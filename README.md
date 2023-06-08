@@ -2,9 +2,12 @@
 
 No external code or other content has been used in this project, except where specifically provided in the assignment resources.
 
-The `stocksummariser.vba` code is also embedded within the `.xlsm` file, and can be run on any page from the macro menu.
+The `stocksummariser.vbs` code includes two 'sub' procedures:
 
-The larger `.xlsm` file is too large to push to GitHub.
+- `stocksummariser_onesheet` (apply the function to the active sheet)
+- `stocksummariser_allsheets` (loop through all sheets)
+
+Running the script on the smaller sample files usually only takes a few  minutes, but running across the full, multi-year data will likely take 20-30 minutes.
 
 
 
